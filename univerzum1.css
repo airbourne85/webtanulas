@@ -1,0 +1,83 @@
+body {
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+    background-image: url(https://hdwallpaperim.com/wp-content/uploads/2017/08/22/392123-universe-space-abstract-structure-Millennium_Simulation_Project.jpg);
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width      : 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width      : 100%;
+    }
+}
+
+.shel {
+    display     : block;
+    margin-left : auto;
+    margin-right: auto;
+    width       : 30%;
+}
+
+.főcímhat {
+
+    background: radial-gradient(ellipse at top, #0b19df, transparent),
+        radial-gradient(ellipse at bottom, #6fe1f0, transparent);
+    margin-left  : 250px;
+    margin-right : 250px;
+    border       : outset 10px rgb(6, 67, 235);
+    border-radius: 100px 0px 100px 0px;
+    box-shadow   : 8px 8px 10px black;
+}
+
+.főcím {
+    animation-duration: 3s;
+    animation-name    : slidein;
+
+    color      : rgb(0, 174, 255);
+    font-size  : 50px;
+    font-family: unset;
+    text-align : center;
+    text-shadow: 7px 5px 3px rgb(0, 0, 0);
+}
+
+
+.bigbang {
+    margin       : 10px auto 20px;
+    display      : block;
+    border       : inset 10px rgb(6, 67, 235);
+    border-radius: 50px 50px 50px 50px;
+    box-shadow   : 8px 8px 10px black;
+}
+
+.ősleirássum {
+    color      : rgb(0, 174, 255);
+    font-size  : 50px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    text-shadow: 7px 5px 3px rgb(0, 0, 0);
+}
+
+.ősleirásdet {
+    color        : rgb(3, 186, 241);
+    font-size    : 30px;
+    text-shadow  : 7px 5px 3px rgb(0, 0, 0);
+    margin-bottom: 40px;
+
+}
+
+.napbutt {}
+
+.neutbutt {}
+
+.feketebutt {}
+
+.galaxbutt {
+    background: url(galaxbutton1.jpg);
+
+    width : 300px;
+    height: 248px;
+}
